@@ -1,4 +1,4 @@
-# INCIDENT REPORT ANALYSIS PROJECT
+# Incident Report Analysis Project
 
 ## Objective
 
