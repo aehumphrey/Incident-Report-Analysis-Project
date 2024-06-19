@@ -60,7 +60,7 @@ Description: Determine how to <b>detect</b> similar incidents.
 | Summarize    | A security incident occurred when all network services stopped responding. After investigating, a distributed denial of service (DDoS) attack involving a flood of incoming ICMP packets was identified as the cause. a flood of incoming ICMP packets. The cybersecurity team blocked the attack and stopped non-critical network services in order to prioritize restoring critical network services.|
 | Identify | An ICMP flood attack overwhelmed the network servers, affecting the entire internal network. This impacted all critical network resources. |
 | Protect | Two tools have been implemented to filter ICMP traffic: 1) a new firewall rule limits the rate of incoming ICMP packets, and 2) a newly implemented IDS/IPS system filters ICMP traffic based on predefined rules of “suspicious” characteristics. |
-| Detect | Text... ... ... |
+| Detect | Source IP address verification has been configured on the firewall. This will check for spoofed IP addresses on incoming ICMP packets in order to detect abnormal traffic patterns and, in doing so, alert systems administrators to a potential ICMP flood attack before one occurs. |
 
 ### Step Five
 
@@ -70,7 +70,7 @@ Description: Create a <b>response</b> plan
 | Summarize    | A security incident occurred when all network services stopped responding. After investigating, a distributed denial of service (DDoS) attack involving a flood of incoming ICMP packets was identified as the cause. a flood of incoming ICMP packets. The cybersecurity team blocked the attack and stopped non-critical network services in order to prioritize restoring critical network services.|
 | Identify | An ICMP flood attack overwhelmed the network servers, affecting the entire internal network. This impacted all critical network resources. |
 | Protect | Two tools have been implemented to filter ICMP traffic: 1) a new firewall rule limits the rate of incoming ICMP packets, and 2) a newly implemented IDS/IPS system filters ICMP traffic based on predefined rules of “suspicious” characteristics. |
-| Detect | Text... ... ... |
+| Detect | Source IP address verification has been configured on the firewall. This will check for spoofed IP addresses on incoming ICMP packets in order to detect abnormal traffic patterns and, in doing so, alert systems administrators to a potential ICMP flood attack before one occurs. |
 | Respond | Text... ... ... |
 
 ### Step Six
@@ -81,7 +81,7 @@ Description: Help the organization <b>recover</b> from the incident
 | Summarize    | A security incident occurred when all network services stopped responding. After investigating, a distributed denial of service (DDoS) attack involving a flood of incoming ICMP packets was identified as the cause. a flood of incoming ICMP packets. The cybersecurity team blocked the attack and stopped non-critical network services in order to prioritize restoring critical network services.|
 | Identify | An ICMP flood attack overwhelmed the network servers, affecting the entire internal network. This impacted all critical network resources. |
 | Protect | Two tools have been implemented to filter ICMP traffic: 1) a new firewall rule limits the rate of incoming ICMP packets, and 2) a newly implemented IDS/IPS system filters ICMP traffic based on predefined rules of “suspicious” characteristics. |
-| Detect | Text... ... ... |
+| Detect | Source IP address verification has been configured on the firewall. This will check for spoofed IP addresses on incoming ICMP packets in order to detect abnormal traffic patterns and, in doing so, alert systems administrators to a potential ICMP flood attack before one occurs. |
 | Respond | Text... ... ... |
 | Recover | Text... ... ...|
 
