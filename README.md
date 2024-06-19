@@ -71,7 +71,7 @@ Description: Create a <b>response</b> plan
 | Identify | An ICMP flood attack overwhelmed the network servers, affecting the entire internal network. This impacted all critical network resources. |
 | Protect | Two tools have been implemented to filter ICMP traffic: 1) a new firewall rule limits the rate of incoming ICMP packets, and 2) a newly implemented IDS/IPS system filters ICMP traffic based on predefined rules of “suspicious” characteristics. |
 | Detect | Source IP address verification has been configured on the firewall. This will check for spoofed IP addresses on incoming ICMP packets in order to detect abnormal traffic patterns and, in doing so, alert systems administrators to a potential ICMP flood attack before one occurs. |
-| Respond | Text... ... ... |
+| Respond | The cybersecurity team will need to isolate affected systems. This will prevent additional network disruption. After isolating affected systems, the team will attempt to restore critical systems and services. Next, the team will review and analyze network logs. If applicable, incidents will be reported to management and the appropriate legal authorities. |
 
 ### Step Six
 
@@ -82,7 +82,7 @@ Description: Help the organization <b>recover</b> from the incident
 | Identify | An ICMP flood attack overwhelmed the network servers, affecting the entire internal network. This impacted all critical network resources. |
 | Protect | Two tools have been implemented to filter ICMP traffic: 1) a new firewall rule limits the rate of incoming ICMP packets, and 2) a newly implemented IDS/IPS system filters ICMP traffic based on predefined rules of “suspicious” characteristics. |
 | Detect | Source IP address verification has been configured on the firewall. This will check for spoofed IP addresses on incoming ICMP packets in order to detect abnormal traffic patterns and, in doing so, alert systems administrators to a potential ICMP flood attack before one occurs. |
-| Respond | Text... ... ... |
+| Respond | The cybersecurity team will need to isolate affected systems. This will prevent additional network disruption. After isolating affected systems, the team will attempt to restore critical systems and services. Next, the team will review and analyze network logs. If applicable, incidents will be reported to management and the appropriate legal authorities. |
 | Recover | Text... ... ...|
 
 
