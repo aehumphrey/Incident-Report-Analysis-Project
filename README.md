@@ -1,8 +1,8 @@
-# SECURITY INCIDENT LAB
+# SECURITY REPORT ANALYSIS PROJECT
 
 ## Objective
 
-The Security Incident Lab focused on addressing a Distributed Denial of Service (DDoS) attack incident within a multimedia company’s network environment. The incident disrupted network services for two hours, necessitating the blocking of incoming ICMP traffic and the restoration of critical services. Using the National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF), my objective was to develop a comprehensive plan to enhance network security. This plan includes identifying security risks through regular audits, implementing protective measures, enhancing detection capabilities, responding effectively to incidents, and ensuring the recovery of affected systems. This project showcases my ability to apply cybersecurity best practices and contribute to ongoing security strategy improvements within organizations.
+The Security Report Analysis Project focused on addressing a Distributed Denial of Service (DDoS) attack incident within a multimedia company’s network environment. The incident disrupted network services for two hours, necessitating the blocking of incoming ICMP traffic and the restoration of critical services. Using the National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF), my objective was to develop a comprehensive plan to enhance network security. This plan includes identifying security risks through regular audits, implementing protective measures, enhancing detection capabilities, responding effectively to incidents, and ensuring the recovery of affected systems. This project showcases my ability to apply cybersecurity best practices and contribute to ongoing security strategy improvements within organizations.
 
 ### Skills Learned
 
