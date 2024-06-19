@@ -6,10 +6,11 @@ The Security Incident Lab focused on addressing a Distributed Denial of Service 
 
 ### Skills Learned
 
-- Proficient in conducting security audits of internal networks, systems, devices, and access privileges to identify vulnerabilities and gaps in security.
+- Proficiency in developing comprehensive response plans  to contain, neutralize, and analyze security incidents.
 - Development of strategies for business continuity and recovery.
-
-
+- Skill in conducting audits to identify security gaps and implementing procedures to protect internal assets from threats.
+- Enhanced knowledge of NIST Cybersecurity Framework (CSF) principles and practical application when navigating incident analyses.
+- Ability to assess organizational readiness, identify areas for improvement in incident response and recovery processes, and implement measures to strengthen security posture.
 
 
 ### Tools Used
