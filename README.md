@@ -6,11 +6,10 @@ The Security Incident Lab focused on addressing a Distributed Denial of Service 
 
 ### Skills Learned
 
-- Advanced understanding of firewall configuration and implementation of IP address verification.
 - Proficient in conducting security audits of internal networks, systems, devices, and access privileges to identify vulnerabilities and gaps in security.
-- Ability to respond to DDoS attack incidents, including immediate actions to mitigate the impact and restore critical network services.
-- Enhanced knowledge of  IDS/IPS systems and use in enhancing security posture.
 - Development of strategies for business continuity and recovery.
+
+
 
 
 ### Tools Used
@@ -83,7 +82,7 @@ Description: Help the organization <b>recover</b> from the incident
 | Protect | Two tools have been implemented to filter ICMP traffic: 1) a new firewall rule limits the rate of incoming ICMP packets, and 2) a newly implemented IDS/IPS system filters ICMP traffic based on predefined rules of “suspicious” characteristics. |
 | Detect | Source IP address verification has been configured on the firewall. This will check for spoofed IP addresses on incoming ICMP packets in order to detect abnormal traffic patterns and, in doing so, alert systems administrators to a potential ICMP flood attack before one occurs. |
 | Respond | The cybersecurity team will need to isolate affected systems. This will prevent additional network disruption. After isolating affected systems, the team will attempt to restore critical systems and services. Next, the team will review and analyze network logs. If applicable, incidents will be reported to management and the appropriate legal authorities. |
-| Recover | Text... ... ...|
+| Recover | The first step in recovering from a DDoS attack by ICMP flooding is restoring access to network services. FutureICMP flood attacks can be blocked at the firewall. After an attack is identified, non-critical network services should be stopped in order to reduce network traffic. This will mitigate the effects of the DDoS attack. Critical network services should be restored first before non-critical systems can securely be brought online. |
 
 
 
